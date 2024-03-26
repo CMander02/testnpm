@@ -21,3 +21,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public  # 或你的构建输出目录
+
+        

@@ -1,0 +1,71 @@
+{
+    "char_009_12fce": {
+      "phases": [
+        {
+          "characterPrefabKey": "char_009_12fce",
+          "rangeId": "2-3",
+          "maxLevel": 30,
+          "attributesKeyFrames": [
+            {
+              "level": 1,//001的所有属性和抗性
+              "data": {
+                "maxHp": 1461,
+                "atk": 302,
+                "def": 31,
+                "magicResistance": 10,
+                "cost": 24,
+                "blockCnt": 1,
+                "moveSpeed": 1,
+                "attackSpeed": 100,
+                "baseAttackTime": 2.9,
+                "respawnTime": 70,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 1,
+                "maxDeployCount": 1,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false,
+                "frozenImmune": false,
+                "levitateImmune": false,
+                "disarmedCombatImmune": false
+              }
+            },
+            {
+              "level": 30,//030的所有属性和抗性
+              "data": {
+                "maxHp": 1461,
+                "atk": 432,
+                "def": 50,
+                "magicResistance": 10,
+                "cost": 24,
+                "blockCnt": 1,
+                "moveSpeed": 1,
+                "attackSpeed": 100,
+                "baseAttackTime": 2.9,
+                "respawnTime": 70,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 1,
+                "maxDeployCount": 1,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false,
+                "frozenImmune": false,
+                "levitateImmune": false,
+                "disarmedCombatImmune": false
+              }
+            }
+          ],
+          "evolveCost": null
+        }
+      ]
+    }
+}
+  

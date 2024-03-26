@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Simple Webpage</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is my simple webpage.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Information</title>
+  </head>
+  <body>
+    <div id="characterInfo">
+      <h2>Character Information</h2>
+      <p id="name"></p>
+      <p id="description"></p>
+      <p id="itemUsage"></p>
+      <p id="itemDesc"></p>
+      <p id="itemObtainApproach"></p>
+      <p id="rarity"></p>
+      <p id="profession"></p>
+      <p id="subProfessionId"></p>
+      <p id="position"></p>
+      <p id="maxLevel"></p>
+    </div>
+    <div id="selections">
+      <h3>Select Character Attributes</h3>
+      <label for="elite">精英化阶段:</label>
+      <select id="elite">
+        <option value="0">0</option>
+      </select>
+
+      <label for="level">等级:</label>
+      <select id="level">
+        <!-- Options will be populated by JavaScript -->
+      </select>
+    </div>
+    <div id="calculatedStats">
+      <h3>Calculated Stats</h3>
+      <!-- Calculated stats will be displayed here -->
+    </div>
+
+    <script src="character.js"></script>
+  </body>
 </html>
